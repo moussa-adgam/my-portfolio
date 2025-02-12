@@ -4508,6 +4508,199 @@ body::before {
     animation: glow 1.5s infinite alternate; /* זוהר מתנפנף */
     transform: scale(1.02);
 }
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* הקטנת הטקסט במסכים קטנים */
+    }
+
+    .container {
+        width: 100%; /* שימוש ברוחב מלא במסכים קטנים */
+        padding: 10px;
+    }
+
+    .image img {
+        width: 100%; /* התאמת גודל התמונות למסך */
+        height: auto;
+    }
+
+    .buttons {
+        flex-direction: column; /* כפתורים יוצגו בטור במקום שורה */
+    }
+
+    .header {
+        text-align: center; /* כותרות ממורכזות */
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+#footer {
+    background: #2e3141;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#footer .major {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#footer .contact {
+    list-style: none;
+    padding: 0;
+}
+
+#footer .contact li {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+#footer .contact a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#footer .contact a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+.fa-laptop-code {
+    font-size: 40px; /* גודל האייקון */
+    color: #ffcc00; /* צבע זהב אלגנטי */
+    margin-bottom: 10px; /* רווח מתחת */
+}
+.header-text {
+    background: rgba(0, 0, 0, 0.3); /* רקע שקוף שחור */
+    padding: 10px; /* רווחים מסביב */
+    border-radius: 5px; /* עיגול קצוות */
+}
+h2 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+.header-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+#footer {
+    background-color: #2e3141; /* צבע רקע כהה */
+    padding: 50px 0; /* ריווח פנימי */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ממרכז את כל התוכן */
+    text-align: center;
+}
+
+#footer .inner {
+    max-width: 600px; /* הגבלת הרוחב של התוכן */
+    width: 100%;
+	padding-left: 30px;
+}
+
+#footer h2 {
+    color: #ffcc00; /* כותרת בצבע זהוב */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#footer p {
+    color: #d3d3d3; /* צבע טקסט עדין */
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+#footer ul.contact {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* מבטיח שכל הקישורים ממורכזים */
+}
+
+#footer ul.contact li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+#footer ul.contact a {
+    color: #ffcc00; /* צבע זהוב */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#footer ul.contact a:hover {
+    color: #ffffff; /* שינוי לצבע לבן בריחוף */
+}
+
+#footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+/* שמירה על ה-footer ממורכז */
+#footer .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* משאיר את הכותרת במרכז */
+    text-align: center;
+}
+
+/* הזזה של רשימת פרטי הקשר קצת ימינה */
+#footer ul.contact {
+    text-align: right; /* מעביר את היישור לשמאל */
+    padding-left: 10px; /* דוחף הכל טיפה ימינה */
+}
+/* שמירה על ה-footer ממורכז */
+#footer .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* שומר על הכותרת והתיאור במרכז */
+    text-align: center;
+}
+
+/* תזוזה עדינה שמאלה של רשימת פרטי הקשר */
+#footer ul.contact {
+    text-align: left; /* מבטיח יישור תקין */
+    transform: translateX(-20px); /* מזיז ממש טיפה שמאלה */
+}
+#banner p {
+    font-size: 1.4em; /* משנה את הגודל של IT SUPPORT SPECIALIST */
+    font-weight: bold; /* הופך אותו לבולט יותר */
+    letter-spacing: 1px; /* מרווח קטן בין האותיות */
+}
 
 
 
